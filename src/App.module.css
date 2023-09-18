@@ -1,0 +1,23 @@
+:root {
+  --color-background: #151420;
+  --color-background-light: #1e1d2d;
+  --color-text: white;
+  --color-primary: #1aa2b0;
+  --color-error: #d8681d;
+  --color-error-background: #23150e;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', Helvetica, sans-serif;
+  color: var(--color-text);
+  background-color: var(--color-background);
+}
+
+.container {
+  max-width: 600px;
+  margin: 285px auto 0px;
+}

@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+  position: relative;
+}
+
+.empty {
+  width: 100%;
+  text-align: center;
+  margin: 120px 0;
+  color: var(--color-primary);
+}
+
+.img {
+  border: 1px solid var(--color-primary);
+  border-radius: 10px;
+  max-height: 150px;
+}
+
+.informationContainer {
+  padding: 0px 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 600;
+}
+
+.company {
+  color: var(--color-primary);
+  font-size: 15px;
+}
+
+.price {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 64px;
+}
+
+.desc {
+  font-size: 14px;
+}
+
+.pillSection {
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
